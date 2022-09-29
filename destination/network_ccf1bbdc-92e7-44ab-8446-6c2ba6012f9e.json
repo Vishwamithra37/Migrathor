@@ -2,10 +2,10 @@
   "admin_state_up": true,
   "availability_zone_hints": [],
   "availability_zones": [],
-  "created_at": "2022-09-28T11:57:07Z",
-  "description": "migrathor_migrathor_",
+  "created_at": "2022-09-29T10:22:47Z",
+  "description": "migrathor_migrathor_migrathor_migrathor_migrathor_migrathor_",
   "dns_domain": null,
-  "id": "b6a32c9a-41a0-4833-ac33-6ccc888f676c",
+  "id": "585ad90d-3912-4636-80fc-0cddc84b8118",
   "ipv4_address_scope": null,
   "ipv6_address_scope": null,
   "is_default": false,
@@ -16,7 +16,7 @@
   "project_id": "21fad6e558324f0ca5144cf05fc0197c",
   "provider:network_type": "vxlan",
   "provider:physical_network": null,
-  "provider:segmentation_id": 332,
+  "provider:segmentation_id": 505,
   "qos_policy_id": null,
   "revision_number": 1,
   "router:external": false,
@@ -25,5 +25,5 @@
   "status": "ACTIVE",
   "subnets": [],
   "tags": [],
-  "updated_at": "2022-09-28T11:57:07Z"
+  "updated_at": "2022-09-29T10:22:47Z"
 }

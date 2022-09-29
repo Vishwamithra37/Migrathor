@@ -1,23 +1,23 @@
 {
   "container_format": "bare",
-  "created_at": "2022-09-28T11:56:53Z",
+  "created_at": "2022-09-29T09:53:18Z",
   "disk_format": "qcow2",
-  "file": "/v2/images/e8f5f304-0053-4484-8f72-14a013399fb8/file",
-  "id": "e8f5f304-0053-4484-8f72-14a013399fb8",
+  "file": "/v2/images/a19692ec-ca2f-4766-98d5-e4d742629f37/file",
+  "id": "a19692ec-ca2f-4766-98d5-e4d742629f37",
   "min_disk": 0,
   "min_ram": 0,
-  "name": "veu",
+  "name": "ciru",
   "owner": "21fad6e558324f0ca5144cf05fc0197c",
   "properties": {
     "os_hidden": false,
     "owner_specified.openstack.md5": "",
     "owner_specified.openstack.sha256": "",
-    "owner_specified.openstack.object": "images/veu"
+    "owner_specified.openstack.object": "images/ciru"
   },
   "protected": false,
   "schema": "/v2/schemas/image",
   "status": "queued",
   "tags": [],
-  "updated_at": "2022-09-28T11:56:53Z",
-  "visibility": "private"
+  "updated_at": "2022-09-29T09:53:18Z",
+  "visibility": "public"
 }

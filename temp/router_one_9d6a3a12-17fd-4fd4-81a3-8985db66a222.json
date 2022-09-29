@@ -4,40 +4,35 @@
   "availability_zones": [
     "nova"
   ],
-  "created_at": "2022-09-28T11:51:40Z",
-  "description": "",
+  "created_at": "2022-09-29T09:13:38Z",
+  "description": "migrathor_migrathor_migrathor_migrathor_",
   "distributed": false,
   "external_gateway_info": {
     "network_id": "289de66a-9380-49ff-b7f1-1625de5eba7c",
     "external_fixed_ips": [
       {
         "subnet_id": "625efae9-0010-4152-afe3-4de2d8db3d01",
-        "ip_address": "192.168.0.174"
+        "ip_address": "192.168.0.163"
       }
     ],
     "enable_snat": true
   },
   "flavor_id": null,
   "ha": false,
-  "id": "78db8397-3643-4cbf-a0b0-65da3e186fbb",
+  "id": "9d6a3a12-17fd-4fd4-81a3-8985db66a222",
   "interfaces_info": [
     {
-      "port_id": "bea28a4a-5b4d-4004-924b-1e51319efac3",
-      "ip_address": "172.20.2.1",
-      "subnet_id": "efa93db9-e40b-4004-a2fa-908abd18ec19"
-    },
-    {
-      "port_id": "f76f37d8-039d-4711-9e2b-e32503afc50b",
+      "port_id": "670b3025-add9-4c87-bde1-165a5841ad55",
       "ip_address": "172.20.5.1",
-      "subnet_id": "343328b4-d43c-4ab7-9725-2d66abb66de7"
+      "subnet_id": "45b0337b-66b0-42f3-8e29-a3186c4643e1"
     }
   ],
   "name": "vishwaksen",
   "project_id": "21fad6e558324f0ca5144cf05fc0197c",
-  "revision_number": 5,
+  "revision_number": 4,
   "routes": [],
   "status": "ACTIVE",
   "tags": [],
   "tenant_id": "21fad6e558324f0ca5144cf05fc0197c",
-  "updated_at": "2022-09-28T11:52:11Z"
+  "updated_at": "2022-09-29T09:14:16Z"
 }

@@ -1,6 +1,9 @@
-. $1 #Source Openstack
-# . $2 #Destination Openstack
-# mkdir -p ./temp/
+. $1 #source Openstack
+# . $2 #destination Openstack
+rm -rf ./temp/
+rm -rf ./destination/ 
+mkdir -p ./temp/
+mkdir -p ./destination/
 openstack project list -f json > ./temp/project_list.json
 openstack user list -f json > ./temp/user_list.json
 openstack role list -f json > ./temp/role_list.json

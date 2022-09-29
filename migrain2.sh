@@ -1,3 +1,5 @@
+rm -rf ./destination
+mkdir ./destination/
 . rem.rc
 python3 keystoner.py
 python3 glancenator.py
