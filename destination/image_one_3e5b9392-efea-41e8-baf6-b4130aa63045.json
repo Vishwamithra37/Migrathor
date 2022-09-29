@@ -1,0 +1,23 @@
+{
+  "container_format": "bare",
+  "created_at": "2022-09-28T11:56:51Z",
+  "disk_format": "qcow2",
+  "file": "/v2/images/57a754e0-7d53-4fc8-9071-2e94891dc880/file",
+  "id": "57a754e0-7d53-4fc8-9071-2e94891dc880",
+  "min_disk": 0,
+  "min_ram": 0,
+  "name": "ciru",
+  "owner": "21fad6e558324f0ca5144cf05fc0197c",
+  "properties": {
+    "os_hidden": false,
+    "owner_specified.openstack.md5": "",
+    "owner_specified.openstack.sha256": "",
+    "owner_specified.openstack.object": "images/ciru"
+  },
+  "protected": false,
+  "schema": "/v2/schemas/image",
+  "status": "queued",
+  "tags": [],
+  "updated_at": "2022-09-28T11:56:51Z",
+  "visibility": "public"
+}

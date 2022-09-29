@@ -1,0 +1,58 @@
+[
+  {
+    "ID": "7bf19cfca2d949fe999e7b7e9e4ea66b",
+    "Name": "admin"
+  },
+  {
+    "ID": "f4d4a120b11a45fc933dd9e9bfde62f0",
+    "Name": "glance"
+  },
+  {
+    "ID": "15b79af36aac4332bd9e5c1b813901fe",
+    "Name": "placement"
+  },
+  {
+    "ID": "3a38f444d41845d1999a9dbf9bcaa04f",
+    "Name": "nova"
+  },
+  {
+    "ID": "2669ab6febaf4c71b09a15349b01fde0",
+    "Name": "neutron"
+  },
+  {
+    "ID": "a321b8c949e54477ae9d47c7b64f0f56",
+    "Name": "kuryr"
+  },
+  {
+    "ID": "2e04ce96615544f8801e5e2a1b6cab8a",
+    "Name": "magnum"
+  },
+  {
+    "ID": "95255ac3340b498cb25d992a209fb714",
+    "Name": "magnum_trustee_domain_admin"
+  },
+  {
+    "ID": "160f8460be404d5ca438ac72fc568b35",
+    "Name": "zun"
+  },
+  {
+    "ID": "30b97b9cf0634a73b329bb9d686fd66b",
+    "Name": "admin2"
+  },
+  {
+    "ID": "bb1d72518e8b4b89ba6b818f83549e85",
+    "Name": "a1"
+  },
+  {
+    "ID": "eebf6fdc8a5b4af6b2ae07a88faf53b2",
+    "Name": "a2"
+  },
+  {
+    "ID": "5dbf2a867eb94b49820ad74e653fb0c9",
+    "Name": "a3"
+  },
+  {
+    "ID": "4b9a2047b9334517a5911cfb571d6cfb",
+    "Name": "magnum_trustee_domain_admin"
+  }
+]

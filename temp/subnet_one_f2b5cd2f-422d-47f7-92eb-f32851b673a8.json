@@ -1,0 +1,30 @@
+{
+  "allocation_pools": [
+    {
+      "start": "172.20.2.2",
+      "end": "172.20.3.254"
+    }
+  ],
+  "cidr": "172.20.2.0/23",
+  "created_at": "2022-09-28T11:51:23Z",
+  "description": "",
+  "dns_nameservers": [],
+  "dns_publish_fixed_ip": null,
+  "enable_dhcp": true,
+  "gateway_ip": "172.20.2.1",
+  "host_routes": [],
+  "id": "efa93db9-e40b-4004-a2fa-908abd18ec19",
+  "ip_version": 4,
+  "ipv6_address_mode": null,
+  "ipv6_ra_mode": null,
+  "name": "Bhumi",
+  "network_id": "f2b5cd2f-422d-47f7-92eb-f32851b673a8",
+  "project_id": "21fad6e558324f0ca5144cf05fc0197c",
+  "revision_number": 0,
+  "segment_id": null,
+  "service_types": [],
+  "subnetpool_id": null,
+  "tags": [],
+  "tenant_id": "21fad6e558324f0ca5144cf05fc0197c",
+  "updated_at": "2022-09-28T11:51:23Z"
+}

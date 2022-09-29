@@ -1,0 +1,26 @@
+{
+  "checksum": "0a455932de3334cf5215262ecb97bc51",
+  "container_format": "bare",
+  "created_at": "2022-09-28T11:53:20Z",
+  "disk_format": "qcow2",
+  "file": "/v2/images/96ff6c2d-52dd-495f-92c4-43eab75be795/file",
+  "id": "96ff6c2d-52dd-495f-92c4-43eab75be795",
+  "min_disk": 0,
+  "min_ram": 0,
+  "name": "veu",
+  "owner": "21fad6e558324f0ca5144cf05fc0197c",
+  "properties": {
+    "os_hidden": false,
+    "os_hash_algo": "sha512",
+    "os_hash_value": "d0b1b20f5d9c7446f3dd7422dac5f3ec21d70614b141cb2ef1814e8525a0b452ec10c679d231ec2bd1e1e449551f9e947f7517351196164e8566c0bcb306add2",
+    "stores": "file"
+  },
+  "protected": false,
+  "schema": "/v2/schemas/image",
+  "size": 601751552,
+  "status": "active",
+  "tags": [],
+  "updated_at": "2022-09-28T11:53:30Z",
+  "virtual_size": 2361393152,
+  "visibility": "private"
+}

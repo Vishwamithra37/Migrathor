@@ -1,0 +1,23 @@
+[
+  {
+    "ID": "289de66a-9380-49ff-b7f1-1625de5eba7c",
+    "Name": "public1",
+    "Subnets": [
+      "625efae9-0010-4152-afe3-4de2d8db3d01"
+    ]
+  },
+  {
+    "ID": "af8b8eda-a4d4-4b2c-a7da-f0e2bbeda25a",
+    "Name": "net1",
+    "Subnets": [
+      "343328b4-d43c-4ab7-9725-2d66abb66de7"
+    ]
+  },
+  {
+    "ID": "f2b5cd2f-422d-47f7-92eb-f32851b673a8",
+    "Name": "net2",
+    "Subnets": [
+      "efa93db9-e40b-4004-a2fa-908abd18ec19"
+    ]
+  }
+]

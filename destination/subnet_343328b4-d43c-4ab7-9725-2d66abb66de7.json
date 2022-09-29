@@ -1,0 +1,30 @@
+{
+  "allocation_pools": [
+    {
+      "start": "172.20.5.2",
+      "end": "172.20.5.2"
+    }
+  ],
+  "cidr": "172.20.5.0/24",
+  "created_at": "2022-09-28T11:57:16Z",
+  "description": "migrathor_",
+  "dns_nameservers": [],
+  "dns_publish_fixed_ip": null,
+  "enable_dhcp": true,
+  "gateway_ip": "172.20.5.1",
+  "host_routes": [],
+  "id": "1bd5fc2e-8b44-4b57-b6bd-a4f8e2a2679e",
+  "ip_version": 4,
+  "ipv6_address_mode": null,
+  "ipv6_ra_mode": null,
+  "name": "sub_source",
+  "network_id": "b6a32c9a-41a0-4833-ac33-6ccc888f676c",
+  "project_id": "21fad6e558324f0ca5144cf05fc0197c",
+  "revision_number": 0,
+  "segment_id": null,
+  "service_types": [],
+  "subnetpool_id": null,
+  "tags": [],
+  "tenant_id": "21fad6e558324f0ca5144cf05fc0197c",
+  "updated_at": "2022-09-28T11:57:16Z"
+}

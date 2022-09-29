@@ -1,0 +1,146 @@
+[
+  {
+    "Role": "admin",
+    "User": "placement@Default",
+    "Group": "",
+    "Project": "service@Default",
+    "Domain": "",
+    "System": "",
+    "Inherited": false
+  },
+  {
+    "Role": "admin",
+    "User": "zun@Default",
+    "Group": "",
+    "Project": "service@Default",
+    "Domain": "",
+    "System": "",
+    "Inherited": false
+  },
+  {
+    "Role": "admin",
+    "User": "neutron@Default",
+    "Group": "",
+    "Project": "service@Default",
+    "Domain": "",
+    "System": "",
+    "Inherited": false
+  },
+  {
+    "Role": "admin",
+    "User": "magnum@Default",
+    "Group": "",
+    "Project": "service@Default",
+    "Domain": "",
+    "System": "",
+    "Inherited": false
+  },
+  {
+    "Role": "admin",
+    "User": "admin2@Default",
+    "Group": "",
+    "Project": "admin@Default",
+    "Domain": "",
+    "System": "",
+    "Inherited": false
+  },
+  {
+    "Role": "admin",
+    "User": "nova@Default",
+    "Group": "",
+    "Project": "service@Default",
+    "Domain": "",
+    "System": "",
+    "Inherited": false
+  },
+  {
+    "Role": "member",
+    "User": "a3@Default",
+    "Group": "",
+    "Project": "a1_project@Default",
+    "Domain": "",
+    "System": "",
+    "Inherited": false
+  },
+  {
+    "Role": "admin",
+    "User": "admin@Default",
+    "Group": "",
+    "Project": "admin@Default",
+    "Domain": "",
+    "System": "",
+    "Inherited": false
+  },
+  {
+    "Role": "admin",
+    "User": "kuryr@Default",
+    "Group": "",
+    "Project": "service@Default",
+    "Domain": "",
+    "System": "",
+    "Inherited": false
+  },
+  {
+    "Role": "member",
+    "User": "a1@Default",
+    "Group": "",
+    "Project": "admin@Default",
+    "Domain": "",
+    "System": "",
+    "Inherited": false
+  },
+  {
+    "Role": "admin",
+    "User": "a1@Default",
+    "Group": "",
+    "Project": "a1_project@Default",
+    "Domain": "",
+    "System": "",
+    "Inherited": false
+  },
+  {
+    "Role": "member",
+    "User": "a1@Default",
+    "Group": "",
+    "Project": "a1_project@Default",
+    "Domain": "",
+    "System": "",
+    "Inherited": false
+  },
+  {
+    "Role": "member",
+    "User": "a2@Default",
+    "Group": "",
+    "Project": "a1_project@Default",
+    "Domain": "",
+    "System": "",
+    "Inherited": false
+  },
+  {
+    "Role": "admin",
+    "User": "glance@Default",
+    "Group": "",
+    "Project": "service@Default",
+    "Domain": "",
+    "System": "",
+    "Inherited": false
+  },
+  {
+    "Role": "admin",
+    "User": "magnum_trustee_domain_admin@magnum",
+    "Group": "",
+    "Project": "",
+    "Domain": "magnum",
+    "System": "",
+    "Inherited": false
+  },
+  {
+    "Role": "admin",
+    "User": "admin@Default",
+    "Group": "",
+    "Project": "",
+    "Domain": "",
+    "System": "all",
+    "Inherited": false
+  }
+]

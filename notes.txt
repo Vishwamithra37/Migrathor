@@ -1,0 +1,5 @@
+[Neutron]
+Start with networks --> Note down subnets and other stuff.
+Make subnets --> Associate appropriately.
+Then routers --> Make routers.
+And then ports --> Make ports.

@@ -1,0 +1,20 @@
+{
+  "admin_state_up": true,
+  "availability_zone_hints": [],
+  "availability_zones": [],
+  "created_at": "2022-09-28T11:57:43Z",
+  "description": "migrathor_",
+  "distributed": false,
+  "external_gateway_info": null,
+  "flavor_id": null,
+  "ha": false,
+  "id": "8a05d3ca-71de-49ab-b275-498734dea77c",
+  "name": "vishwaksen",
+  "project_id": "21fad6e558324f0ca5144cf05fc0197c",
+  "revision_number": 1,
+  "routes": [],
+  "status": "ACTIVE",
+  "tags": [],
+  "tenant_id": "21fad6e558324f0ca5144cf05fc0197c",
+  "updated_at": "2022-09-28T11:57:43Z"
+}

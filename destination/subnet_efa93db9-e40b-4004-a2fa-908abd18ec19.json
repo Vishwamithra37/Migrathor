@@ -1,0 +1,30 @@
+{
+  "allocation_pools": [
+    {
+      "start": "172.20.2.2",
+      "end": "172.20.2.2"
+    }
+  ],
+  "cidr": "172.20.2.0/23",
+  "created_at": "2022-09-28T11:57:23Z",
+  "description": "migrathor_",
+  "dns_nameservers": [],
+  "dns_publish_fixed_ip": null,
+  "enable_dhcp": true,
+  "gateway_ip": "172.20.2.1",
+  "host_routes": [],
+  "id": "4dd1fb99-9af4-465d-8f1b-3f86fdc9b7fb",
+  "ip_version": 4,
+  "ipv6_address_mode": null,
+  "ipv6_ra_mode": null,
+  "name": "Bhumi",
+  "network_id": "2910c5c7-6c06-4451-a5ff-ea5363aafe59",
+  "project_id": "21fad6e558324f0ca5144cf05fc0197c",
+  "revision_number": 0,
+  "segment_id": null,
+  "service_types": [],
+  "subnetpool_id": null,
+  "tags": [],
+  "tenant_id": "21fad6e558324f0ca5144cf05fc0197c",
+  "updated_at": "2022-09-28T11:57:23Z"
+}

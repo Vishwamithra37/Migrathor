@@ -1,0 +1,30 @@
+{
+  "allocation_pools": [
+    {
+      "start": "192.168.0.2",
+      "end": "192.168.0.254"
+    }
+  ],
+  "cidr": "192.168.0.0/24",
+  "created_at": "2022-09-27T04:34:52Z",
+  "description": "",
+  "dns_nameservers": [],
+  "dns_publish_fixed_ip": null,
+  "enable_dhcp": false,
+  "gateway_ip": "192.168.0.1",
+  "host_routes": [],
+  "id": "625efae9-0010-4152-afe3-4de2d8db3d01",
+  "ip_version": 4,
+  "ipv6_address_mode": null,
+  "ipv6_ra_mode": null,
+  "name": "tenda_5g_bhumi",
+  "network_id": "289de66a-9380-49ff-b7f1-1625de5eba7c",
+  "project_id": "21fad6e558324f0ca5144cf05fc0197c",
+  "revision_number": 0,
+  "segment_id": null,
+  "service_types": [],
+  "subnetpool_id": null,
+  "tags": [],
+  "tenant_id": "21fad6e558324f0ca5144cf05fc0197c",
+  "updated_at": "2022-09-27T04:34:52Z"
+}
