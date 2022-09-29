@@ -23,7 +23,8 @@ for r in source_network_list:
     os.system("openstack network show "+r["ID"]+" -f json > ./temp/network_one_"+r["ID"]+".json")
     for i in r["Subnets"]:
         SUBNET_NETWORK_MAP[i]=NET_ID_MAP[r["Name"]]
-        os.system("openstack subnet show "+i+" -f json > ./temp/subnet_one_"+r["ID"]+".json")
+        # os.system("openstack subnet show "+i+" -f json > ./temp/subnet_one_"+r["ID"]+".json")
+        os.system("openstack subnet show "+i+" -f json > ./temp/subnet_one_"+i+".json")
 
 with open('./temp/router_list.json','r') as f:
     source_router_list = json.load(f)
@@ -32,8 +33,5 @@ for r in source_router_list:
     ROUTER_ID_MAP[r["ID"]]=r["Name"]
     ROUTER_ID_MAP[r["Name"]]=r["ID"]
     os.system("openstack router show "+r["ID"]+" -f json > ./temp/router_one_"+r["ID"]+".json")
-
-
-    
 # print(NET_ID_MAP) 
 # print(SUBNET_NETWORK_MAP) 

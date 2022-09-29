@@ -1,10 +1,10 @@
 {
   "checksum": "0a455932de3334cf5215262ecb97bc51",
   "container_format": "bare",
-  "created_at": "2022-09-29T09:13:06Z",
+  "created_at": "2022-09-29T10:48:22Z",
   "disk_format": "qcow2",
-  "file": "/v2/images/dfea2390-bc66-4baa-af9a-cab0a7f35126/file",
-  "id": "dfea2390-bc66-4baa-af9a-cab0a7f35126",
+  "file": "/v2/images/5417f239-a64f-4c04-bcb1-117337a7f51a/file",
+  "id": "5417f239-a64f-4c04-bcb1-117337a7f51a",
   "min_disk": 0,
   "min_ram": 0,
   "name": "veu",
@@ -23,7 +23,7 @@
   "size": 601751552,
   "status": "active",
   "tags": [],
-  "updated_at": "2022-09-29T09:13:21Z",
+  "updated_at": "2022-09-29T10:48:36Z",
   "virtual_size": 2361393152,
   "visibility": "private"
 }

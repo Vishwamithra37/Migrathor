@@ -1,0 +1,30 @@
+{
+  "allocation_pools": [
+    {
+      "start": "172.20.1.2",
+      "end": "172.20.1.2"
+    }
+  ],
+  "cidr": "172.20.1.0/24",
+  "created_at": "2022-09-29T10:48:48Z",
+  "description": "migrathor_",
+  "dns_nameservers": [],
+  "dns_publish_fixed_ip": null,
+  "enable_dhcp": true,
+  "gateway_ip": "172.20.1.1",
+  "host_routes": [],
+  "id": "ebae41fc-00d7-48e0-af06-a3a3f77eb4f5",
+  "ip_version": 4,
+  "ipv6_address_mode": null,
+  "ipv6_ra_mode": null,
+  "name": "repati_prajalu",
+  "network_id": "5bf67229-6bdb-4ec3-a2a4-9c354f890816",
+  "project_id": "21fad6e558324f0ca5144cf05fc0197c",
+  "revision_number": 0,
+  "segment_id": null,
+  "service_types": [],
+  "subnetpool_id": null,
+  "tags": [],
+  "tenant_id": "21fad6e558324f0ca5144cf05fc0197c",
+  "updated_at": "2022-09-29T10:48:48Z"
+}

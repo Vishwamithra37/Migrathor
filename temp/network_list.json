@@ -1,23 +1,24 @@
 [
   {
-    "ID": "289de66a-9380-49ff-b7f1-1625de5eba7c",
-    "Name": "public1",
-    "Subnets": [
-      "625efae9-0010-4152-afe3-4de2d8db3d01"
-    ]
-  },
-  {
-    "ID": "4f636e34-73a4-46a9-a6cc-3bb424b28d76",
-    "Name": "net2",
-    "Subnets": [
-      "d4886ee5-cba8-4572-82b4-561b5d95e162"
-    ]
-  },
-  {
-    "ID": "ccf1bbdc-92e7-44ab-8446-6c2ba6012f9e",
+    "ID": "5bf67229-6bdb-4ec3-a2a4-9c354f890816",
     "Name": "net1",
     "Subnets": [
-      "45b0337b-66b0-42f3-8e29-a3186c4643e1"
+      "188381bd-9bf9-4b85-8c3e-d2484e9f8d86",
+      "ebae41fc-00d7-48e0-af06-a3a3f77eb4f5"
+    ]
+  },
+  {
+    "ID": "7dfeb090-ef45-4e72-a38f-972cdb531fd8",
+    "Name": "public1",
+    "Subnets": [
+      "dd8a0aad-5897-4600-9747-ee2ac744e99f"
+    ]
+  },
+  {
+    "ID": "af2c8867-9001-4f05-a34b-3a5191f24520",
+    "Name": "net2",
+    "Subnets": [
+      "ce6e214f-17e4-44cc-9549-d266bc84714a"
     ]
   }
 ]

@@ -1,24 +1,24 @@
 {
   "allocation_pools": [
     {
-      "start": "192.168.0.2",
-      "end": "192.168.0.254"
+      "start": "192.166.1.2",
+      "end": "192.166.1.254"
     }
   ],
-  "cidr": "192.168.0.0/24",
-  "created_at": "2022-09-27T04:34:52Z",
+  "cidr": "192.166.1.0/24",
+  "created_at": "2022-09-29T11:00:58Z",
   "description": "",
   "dns_nameservers": [],
   "dns_publish_fixed_ip": null,
-  "enable_dhcp": false,
-  "gateway_ip": "192.168.0.1",
+  "enable_dhcp": true,
+  "gateway_ip": "192.166.1.1",
   "host_routes": [],
-  "id": "625efae9-0010-4152-afe3-4de2d8db3d01",
+  "id": "188381bd-9bf9-4b85-8c3e-d2484e9f8d86",
   "ip_version": 4,
   "ipv6_address_mode": null,
   "ipv6_ra_mode": null,
-  "name": "tenda_5g_bhumi",
-  "network_id": "289de66a-9380-49ff-b7f1-1625de5eba7c",
+  "name": "Gundello_patu",
+  "network_id": "5bf67229-6bdb-4ec3-a2a4-9c354f890816",
   "project_id": "21fad6e558324f0ca5144cf05fc0197c",
   "revision_number": 0,
   "segment_id": null,
@@ -26,5 +26,5 @@
   "subnetpool_id": null,
   "tags": [],
   "tenant_id": "21fad6e558324f0ca5144cf05fc0197c",
-  "updated_at": "2022-09-27T04:34:52Z"
+  "updated_at": "2022-09-29T11:00:58Z"
 }

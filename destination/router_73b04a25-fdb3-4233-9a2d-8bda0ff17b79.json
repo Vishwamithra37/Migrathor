@@ -2,22 +2,22 @@
   "admin_state_up": true,
   "availability_zone_hints": [],
   "availability_zones": [],
-  "created_at": "2022-09-29T10:22:59Z",
-  "description": "migrathor_migrathor_migrathor_migrathor_migrathor_",
+  "created_at": "2022-09-29T11:43:27Z",
+  "description": "migrathor_migrathor_migrathor_migrathor_migrathor_migrathor_migrathor_",
   "distributed": false,
   "external_gateway_info": {
     "network_id": "7dfeb090-ef45-4e72-a38f-972cdb531fd8",
     "external_fixed_ips": [
       {
         "subnet_id": "dd8a0aad-5897-4600-9747-ee2ac744e99f",
-        "ip_address": "192.168.0.163"
+        "ip_address": "192.168.0.154"
       }
     ],
     "enable_snat": true
   },
   "flavor_id": null,
   "ha": false,
-  "id": "ae399dde-224b-4b67-86a6-294fb1f3c465",
+  "id": "9d31fafb-b114-4919-bc5f-5915af05f3ff",
   "name": "vishwaksen",
   "project_id": "21fad6e558324f0ca5144cf05fc0197c",
   "revision_number": 3,
@@ -25,5 +25,5 @@
   "status": "ACTIVE",
   "tags": [],
   "tenant_id": "21fad6e558324f0ca5144cf05fc0197c",
-  "updated_at": "2022-09-29T10:23:02Z"
+  "updated_at": "2022-09-29T11:43:31Z"
 }

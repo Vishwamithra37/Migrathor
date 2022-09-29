@@ -12,8 +12,10 @@ net_ignore=[
 subnet_ignore=["tenda_5g_bhumi"]
 external_gateway_network_name="public1"
 
+
 def split_take_first(me:str):
     return me.split('@')[0]
+
 PROJ_MAP=key_ut.keystone_ut.project_id_map()
 NET_ID_MAP=net_ut.net_ut.net_id_map()
 ROUTER_ID_MAP=net_ut.net_ut.router_id_map()
@@ -68,7 +70,7 @@ for r in os.listdir('./temp/'):
             subnet_data["allocation_pools"][0]["start"]+" "+
             subnet_data["name"]+" -f json > ./destination/subnet_"+subnet_data["id"]+".json"
             )
-
+            
 DES_SOURCE_MAP=net_ut.net_ut.destination_source_subnet_map2()
 for r in os.listdir('./temp/'):
     if counter==0:
@@ -110,9 +112,10 @@ for r in os.listdir('./temp/'):
                  for k in ROUTER_SUBNET_MAP[i]:
                         print("You ARE AT DES_SOURCE_MAP") 
                         print(DES_SOURCE_MAP[k])  
-                        print("openstack router add subnet "+router_data["id"]+" "+DES_SOURCE_MAP[k])
-                        os.system("openstack router add subnet "+SOURCE_DESTINATION_ROUTER_MAP[
-                            router_data["id"]]+" "+DES_SOURCE_MAP[k]
+                        # print("openstack router add subnet "+router_data["id"]+" "+DES_SOURCE_MAP[k])
+                        os.system("openstack router add subnet "+
+                        SOURCE_DESTINATION_ROUTER_MAP[router_data["id"]]+" "+
+                        DES_SOURCE_MAP[k]
                                 )        
  
 

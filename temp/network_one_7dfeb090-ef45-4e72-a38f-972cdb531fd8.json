@@ -4,10 +4,10 @@
   "availability_zones": [
     "nova"
   ],
-  "created_at": "2022-09-26T16:54:23Z",
+  "created_at": "2022-09-29T09:35:26Z",
   "description": "",
   "dns_domain": null,
-  "id": "289de66a-9380-49ff-b7f1-1625de5eba7c",
+  "id": "7dfeb090-ef45-4e72-a38f-972cdb531fd8",
   "ipv4_address_scope": null,
   "ipv6_address_scope": null,
   "is_default": false,
@@ -20,14 +20,14 @@
   "provider:physical_network": "physnet1",
   "provider:segmentation_id": null,
   "qos_policy_id": null,
-  "revision_number": 6,
+  "revision_number": 2,
   "router:external": true,
   "segments": null,
   "shared": false,
   "status": "ACTIVE",
   "subnets": [
-    "625efae9-0010-4152-afe3-4de2d8db3d01"
+    "dd8a0aad-5897-4600-9747-ee2ac744e99f"
   ],
   "tags": [],
-  "updated_at": "2022-09-27T04:41:15Z"
+  "updated_at": "2022-09-29T09:35:27Z"
 }
