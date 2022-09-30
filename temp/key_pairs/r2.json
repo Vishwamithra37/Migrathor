@@ -1,0 +1,10 @@
+{
+  "created_at": "2022-09-30T04:15:18.000000",
+  "fingerprint": "d4:7e:6d:cd:31:10:2f:b3:c7:96:bb:4e:2e:66:c9:fe",
+  "id": "r2",
+  "is_deleted": false,
+  "name": "r2",
+  "private_key": null,
+  "type": "ssh",
+  "user_id": "7bf19cfca2d949fe999e7b7e9e4ea66b"
+}

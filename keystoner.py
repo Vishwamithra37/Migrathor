@@ -2,6 +2,7 @@ import json
 from pprint import pprint as print
 from nested_dictionaries import NestedDictionaries as nd
 import os
+import key_ut
 proj_ignore=[
     "service","admin"
 ]
@@ -10,6 +11,9 @@ user_ignore=[
 ]
 def split_take_first(me:str):
     return me.split('@')[0]
+
+USER_ID_MAP=key_ut.keystone_ut.user_id_map()
+
 
 with open('./temp/project_list.json','r') as f:
     source_project_list = json.load(f)
@@ -38,6 +42,14 @@ for r in ROLE_ASSIGNMENT_MAP:
              for r3 in ROLE_ASSIGNMENT_MAP[r][r2]:
                     print(r3)
                     os.system('openstack role add --project '+r2+' --user '+r+' '+r3 )
+keypair_ones=nd()
+for r in os.listdir('./temp/key_pairs/'):
+    keypair_ones[r["id"]]=USER_ID_MAP[r["User_id"]]
+    os.system("openstack keypair create --user "+keypair_ones[r["id"]]+" --public-key "+"./temp/key_pair_files/"+r["id"])
+
+
+    
+
 
 # os.system('openstack user create a2 --password ubuntu')
 # os.system('openstack role add member --project a1_project --user a2')

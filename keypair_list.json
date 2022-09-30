@@ -1,0 +1,12 @@
+[
+  {
+    "Name": "mykey",
+    "Fingerprint": "84:f0:fe:4a:a4:0f:28:b3:bf:3d:f3:9d:f3:51:bf:0d",
+    "Type": "ssh"
+  },
+  {
+    "Name": "r2",
+    "Fingerprint": "d4:7e:6d:cd:31:10:2f:b3:c7:96:bb:4e:2e:66:c9:fe",
+    "Type": "ssh"
+  }
+]

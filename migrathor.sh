@@ -4,11 +4,16 @@ rm -rf ./temp/
 rm -rf ./destination/ 
 mkdir -p ./temp/
 mkdir -p ./destination/
+mkdir -p ./temp/key_pairs/
+mkdir -p ./temp/key_pair_files/
+
 openstack project list -f json > ./temp/project_list.json
+
 openstack user list -f json > ./temp/user_list.json
 openstack role list -f json > ./temp/role_list.json
 openstack role assignment list --names -f json > ./temp/role_assignment_list.json
-
+openstack keypair list -f json > ./temp/keypair_list
+python3 keystone_0.py
 # . $2 Change to second source at this point and run the python3 keystoner.py
 #  python3 keystoner.py
 # . $1  Changing back to original source
