@@ -46,23 +46,47 @@
 
 ## :dart: About ##
 
-Describe your project
+This project is used to export, backup, and import OpenStack user data without touching the backend. <br>
+This is done with the help of admin rc file and openstackclient. The source deployment structure is first <br> read with the help of 'list' commands and are stored in json format in the temp folder. 
+<br> This is done with the help of <h1> migrathor.sh </h1>.
+
+<br>
+<br>
+After that, it is important to have a clean destiantion openstack so the import of the source openstack,
+won't be messing up the existing users. However, it is required to mention that:
+<ul>
+<li>The destination requires a public1 (Can be changed when needed) network as external network.</li>
+<li>The services project will not be touched. But source users maybe created.</li>
+<li>Make sure to have the required resources to transfer the source deployment.</li>
+<li>Security groups are not yet covered!!<li>
+</ul>
+
+Also, some stream lining needs to be done. 
+
+To backup/export:
+```
+bash migrathor.sh source_admin.rc
+```
+To import:
+```
+bash migrain2 destination_admin.rc
+```
+
+
 
 ## :sparkles: Features ##
 
-:heavy_check_mark: Backup your openstack and store the required files in one temp folder;\ 
-:heavy_check_mark: Deployment agnostic, you only need admin rights of the openstack and the RC file;\
-:heavy_check_mark: Easy to tead, modify and edit to match your needs!;
+:heavy_check_mark: Backup your openstack and store the required files in one temp folder!<br> 
+:heavy_check_mark: Deployment agnostic, you only need admin rights of the openstack and the RC file!<br>
+:heavy_check_mark: Easy to tead, modify and edit to match your needs!
 
 ## :rocket: Technologies ##
 
 The following tools were used in this project:
 
-- [Expo](https://expo.io/)
-- [Node.js](https://nodejs.org/en/)
-- [React](https://pt-br.reactjs.org/)
-- [React Native](https://reactnative.dev/)
-- [TypeScript](https://www.typescriptlang.org/)
+- [shell](https://www.tutorialspoint.com/unix/unix-what-is-shell.html)
+- [python](https://www.python.org/)
+- [opestackclient](https://pypi.org/project/python-openstackclient/)
 
 ## :white_check_mark: Requirements ##
 
