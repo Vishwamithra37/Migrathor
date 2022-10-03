@@ -39,7 +39,7 @@
   <a href="#white_check_mark-requirements">Requirements</a> &#xa0; | &#xa0;
   <a href="#checkered_flag-starting">Starting</a> &#xa0; | &#xa0;
   <a href="#memo-license">License</a> &#xa0; | &#xa0;
-  <a href="https://github.com/{{YOUR_GITHUB_USERNAME}}" target="_blank">Author</a>
+  <a href="https://github.com/vishwamithra37" target="_blank">Author</a>
 </p>
 
 <br>
@@ -58,7 +58,7 @@ won't be messing up the existing users. However, it is required to mention that:
 <li>The destination requires a public1 (Can be changed when needed) network as external network.</li>
 <li>The services project will not be touched. But source users maybe created.</li>
 <li>Make sure to have the required resources to transfer the source deployment.</li>
-<li>Security groups are not yet covered!!<li>
+<li>Security groups are not yet covered!!</li>
 </ul>
 
 Also, some stream lining needs to be done. 
