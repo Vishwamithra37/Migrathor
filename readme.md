@@ -6,7 +6,7 @@
   <!-- <a href="https://making_a_service.netlify.app">Demo</a> -->
 </div>
 
-<h1 align="center">Making_a_service</h1>
+<h1 align="center">Migrathor: Migrating everything on your openstack except your instances</h1>
 
 <p align="center">
   <img alt="Github top language" src="https://img.shields.io/github/languages/top/{{YOUR_GITHUB_USERNAME}}/making_a_service?color=56BEB8">
@@ -50,9 +50,9 @@ Describe your project
 
 ## :sparkles: Features ##
 
-:heavy_check_mark: Feature 1;\
-:heavy_check_mark: Feature 2;\
-:heavy_check_mark: Feature 3;
+:heavy_check_mark: Backup your openstack and store the required files in one temp folder!;\ 
+:heavy_check_mark: Deployment agnostic, you only need admin rights of the openstack and the RC file!;\
+:heavy_check_mark: Easy to tead, modify and edit to match your needs!;
 
 ## :rocket: Technologies ##
 
