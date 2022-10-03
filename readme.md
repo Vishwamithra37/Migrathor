@@ -90,24 +90,24 @@ The following tools were used in this project:
 
 ## :white_check_mark: Requirements ##
 
-Before starting :checkered_flag:, you need to have [Git](https://git-scm.com) and [Node](https://nodejs.org/en/) installed.
+Before starting :checkered_flag:, you need to have [Git](https://git-scm.com) and [pip](https://pypi.org/project/pip/) installed.
 
 ## :checkered_flag: Starting ##
 
 ```bash
 # Clone this project
-$ git clone https://github.com/{{YOUR_GITHUB_USERNAME}}/making_a_service
+$ git clone https://github.com/vishwamithra37/Migrathor
 
 # Access
-$ cd making_a_service
+$ cd Migrathor
 
 # Install dependencies
-$ yarn
+$ pip install openstackclient
 
 # Run the project
-$ yarn start
+$ bash migrathor.sh source_admin.rc
 
-# The server will initialize in the <http://localhost:3000>
+# The script will start pulling stuff out of the openstack deployment and store in temp folder.
 ```
 
 ## :memo: License ##
@@ -115,7 +115,7 @@ $ yarn start
 This project is under license from MIT. For more details, see the [LICENSE](LICENSE.md) file.
 
 
-Made with :heart: by <a href="https://github.com/{{YOUR_GITHUB_USERNAME}}" target="_blank">{{YOUR_NAME}}</a>
+Made with :heart: by <a href="https://github.com/vishwamithra37" target="_blank">Vishwa Mithra</a>
 
 &#xa0;
 
