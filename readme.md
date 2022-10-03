@@ -77,7 +77,7 @@ bash migrain2 destination_admin.rc
 
 :heavy_check_mark: Backup your openstack and store the required files in one temp folder!<br> 
 :heavy_check_mark: Deployment agnostic, you only need admin rights of the openstack and the RC file!<br>
-:heavy_check_mark: Easy to tead, modify and edit to match your needs!
+:heavy_check_mark: Easy to read, modify and edit to match your needs!
 
 ## :rocket: Technologies ##
 
