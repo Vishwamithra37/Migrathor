@@ -52,8 +52,7 @@ This is done with the help of admin rc file and openstackclient. The source depl
 
 <br>
 <br>
-After that, it is important to have a clean destiantion openstack so the import of the source openstack,
-won't be messing up the existing users. However, it is required to mention that:
+After that, it is important to have a clean destiantion openstack; so that the import of the source openstack won't be messing up the existing users. However, it is required to mention that:
 <ul>
 <li>The destination requires a public1 (Can be changed when needed) network as external network.</li>
 <li>The services project will not be touched. But source users maybe created.</li>
