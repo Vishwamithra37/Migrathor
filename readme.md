@@ -50,8 +50,8 @@ Describe your project
 
 ## :sparkles: Features ##
 
-:heavy_check_mark: Backup your openstack and store the required files in one temp folder!;\ 
-:heavy_check_mark: Deployment agnostic, you only need admin rights of the openstack and the RC file!;\
+:heavy_check_mark: Backup your openstack and store the required files in one temp folder;\ 
+:heavy_check_mark: Deployment agnostic, you only need admin rights of the openstack and the RC file;\
 :heavy_check_mark: Easy to tead, modify and edit to match your needs!;
 
 ## :rocket: Technologies ##
