@@ -23,8 +23,8 @@ class net_ut:
             for i in r["Subnets"]:
                 SUBNET_NETWORK_MAP[i]=NET_ID_MAP[r["Name"]]
                 SUBNET_NETWORK_MAP[NET_ID_MAP[r["Name"]]]=i
-
         return SUBNET_NETWORK_MAP  
+
     def router_id_map():
         ROUTER_ID_MAP=nd()
         with open('./temp/router_list.json','r') as f:
@@ -90,10 +90,8 @@ class net_ut:
                 try:
                  with open('./destination/router_'+str(e)+'.json') as b:
                               d_router_data = json.load(b)
-                            #   print(d_subnet_data)
                  d1[e]=d_router_data["id"]
                  d1[d_router_data["id"]]=e
                 except:
                  pass 
         return d1 
-

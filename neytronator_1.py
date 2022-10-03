@@ -65,9 +65,11 @@ for r in os.listdir('./temp/'):
             subnet_data["cidr"]+" --description migrathor_"+
             network_data["description"]+" --"+dhcp+" --gateway "+
             subnet_data["gateway_ip"]+" --network "+
-            NET_ID_MAP[subnet_data["network_id"]]+" --allocation-pool start="+
-            subnet_data["allocation_pools"][0]["start"]+",end="+
-            subnet_data["allocation_pools"][0]["start"]+" "+
+            NET_ID_MAP[subnet_data["network_id"]]+
+            # " --allocation-pool start="+
+            # subnet_data["allocation_pools"][0]["start"]+",end="+
+            # subnet_data["allocation_pools"][0]["start"]
+            " "+
             subnet_data["name"]+" -f json > ./destination/subnet_"+subnet_data["id"]+".json"
             )
             
